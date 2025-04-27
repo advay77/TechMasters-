@@ -51,12 +51,12 @@ export const Team = ()=>{
         <div className="mt-10">
             <Marquee  className="[--duration:10s]">
                 {firstRow.map((payload)=>{
-                    return <CarouselCards height={32} width={34} imgUrl={payload.imageUrl} name={payload.name}/>
+                    return <CarouselCards height={30} width={30} imgUrl={payload.imageUrl} name={payload.name}/>
                 })}
             </Marquee>
             <Marquee reverse  className="mt-3 [--duration:10s]">
                 {secondRow.map((payload)=>{
-                    return <CarouselCards height={20} width={20} imgUrl={payload.imageUrl} name={payload.name}/>
+                    return <CarouselCards height={30} width={30} imgUrl={payload.imageUrl} name={payload.name}/>
                 })}
             </Marquee>
         </div>
